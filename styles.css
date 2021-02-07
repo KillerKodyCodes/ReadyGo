@@ -29,6 +29,9 @@ body{
 #btnradio1{
     z-index: 99;
 }
+#vbtn-radio1{
+    z-index: 99;
+}
 
 @media screen and (screen-width:1024px){
     .ui{
