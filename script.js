@@ -102,34 +102,4 @@ function repeat_3(){
 
 
 
-    $('btnradio1').on('click touchstart', function() {
-      repeat_1();
-    });
-
-
- 
-    $('btnradio2').on('click touchstart', function() {
-      repeat_2();
-    });
- 
-
- 
-    $('btnradio3').on('click touchstart', function() {
-      repeat_3();
-    });
- 
-  
-    $('btnradio4').on('click touchstart', function() {
-      loop();
-    });
-
-  
-    $('vbtn-radio1').on('click touchstart', function() {
-      playsound();
-    });
-
-
-  
-    $('vbtn-radio2').on('click touchstart', function() {
-      stopsound();
-    });
+   
