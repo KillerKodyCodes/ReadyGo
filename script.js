@@ -123,3 +123,15 @@ $(document).ready(function() {
       loop();
     });
   });
+
+  $(document).ready(function() {
+    $('vbtn-radio1').on('click touchstart', function() {
+      playsound();
+    });
+  }); 
+
+  $(document).ready(function() {
+    $('vbtn-radio2').on('click touchstart', function() {
+      stopsound();
+    });
+  });
