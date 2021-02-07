@@ -9,7 +9,7 @@ function loopsound_none(){
     setTimeout(function playtest(){
         let audio = document.getElementById("audio");
         audio.play();
-    }, 4000);
+    }, 4000); 
      
  }
 
@@ -100,6 +100,3 @@ function repeat_3(){
     num = 3;
 }
 
-$(document).on('click', '.but', function(){
-    $(this).addClass('active').siblings().removeClass('active')
-})

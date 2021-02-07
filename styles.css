@@ -9,17 +9,33 @@
     
     
 }
-.start{
+.start{ 
     width: 100%;
 }
-
-.ui{
-    height: 200px;
-    margin: 1em;
-    
-    
+.ul{
+    height: 250px;
 }
+
 body{
     background-color: rgb(34, 35, 36);
+    
 }
 
+#instruction{
+    margin-top: 15px;
+    margin-bottom: 20px;
+}
+
+@media screen and (screen-width:1024px){
+    .ui{
+        height: 450px;
+    }
+
+    
+}
+
+@media screen and (min-width:768px){
+    .ui{
+        height: 350px;
+    }
+}
