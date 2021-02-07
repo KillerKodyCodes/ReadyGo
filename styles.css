@@ -26,6 +26,10 @@ body{
     margin-bottom: 20px;
 }
 
+#btnradio1{
+    z-index: 99;
+}
+
 @media screen and (screen-width:1024px){
     .ui{
         height: 450px;

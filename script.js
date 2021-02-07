@@ -100,3 +100,26 @@ function repeat_3(){
     num = 3;
 }
 
+
+$(document).ready(function() {
+    $('btnradio1').on('click touchstart', function() {
+      repeat_1();
+    });
+  });
+
+  $(document).ready(function() {
+    $('btnradio2').on('click touchstart', function() {
+      repeat_2();
+    });
+  }); 
+
+  $(document).ready(function() {
+    $('btnradio3').on('click touchstart', function() {
+      repeat_3();
+    });
+  });
+  $(document).ready(function() {
+    $('btnradio4').on('click touchstart', function() {
+      loop();
+    });
+  });
