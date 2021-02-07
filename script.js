@@ -102,12 +102,24 @@ function repeat_3(){
 
 
 
-   document.querySelector('vbtn-radio1').addEventListener('touchstart',playsound());
+   /*document.querySelector('vbtn-radio1').addEventListener('touchstart',playsound());
    document.querySelector('vbtn-radio2').addEventListener('touchstart',stopsound());
      
    document.querySelector('btnradio1').addEventListener('touchstart',repeat_1());
    document.querySelector('btnradio2').addEventListener('touchstart',repeat_2());
    document.querySelector('btnradio3').addEventListener('touchstart',repeat_3());
    document.querySelector('btnradio4').addEventListener('touchstart',loop());
+
+*/
+
+document.getElementById("start").ontouchstart = playsound();
+document.getElementById("stop").ontouchstart = stopsound();
+document.getElementById("one").ontouchstart = loopsound_none();
+document.getElementById("two").ontouchstart = loopsound_two();
+document.getElementById("three").ontouchstart = loopsound_three();
+document.getElementById("loop").ontouchstart = loopsound_constant();
+
+
+
 
 

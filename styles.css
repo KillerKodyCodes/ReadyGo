@@ -26,13 +26,10 @@ body{
     margin-bottom: 20px;
 }
 
-#btnradio1{
-    z-index: 99;
-}
-#vbtn-radio1{
-    z-index: 99;
-}
 
+.clickable{
+    z-index: 99;
+}
 @media screen and (screen-width:1024px){
     .ui{
         height: 450px;

@@ -31,24 +31,24 @@
                     <div class="container ui">
                         <div class="btn-group btn-group-lg mygroup "  role="group" aria-label="Basic radio toggle button group">
                             <input type="button" class="btn-check " name="btnradio" id="btnradio1" autocomplete="off" checked onclick="repeat_1()">
-                            <label class="btn btn-outline-info" for="btnradio1" > 1</label>
+                            <label class="btn btn-outline-info clickable" for="btnradio1" id="one"> 1</label>
                         
                             <input type="button" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off" onclick="repeat_2()">
-                            <label class="btn btn-outline-info" for="btnradio2" > 2</label>
+                            <label class="btn btn-outline-info clickable" for="btnradio2" id="two"> 2</label>
                         
                             <input type="button" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off" onclick="repeat_3()">
-                            <label class="btn btn-outline-info" for="btnradio3" > 3</label>
+                            <label class="btn btn-outline-info clickable" for="btnradio3" id="three" > 3</label>
 
                             <input type="button" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off" onclick="loop()">
-                            <label class="btn btn-outline-info" for="btnradio4" > loop </label>
+                            <label class="btn btn-outline-info clickable" for="btnradio4" id="loop" > loop </label>
                         </div>
 
                         <div class=" btn-group-lg btn-group-vertical mygroup" role="group" aria-label="Vertical radio toggle button group">
                         
                             <input type="button" class="btn-check" name="vbtn-radio" id="vbtn-radio1" autocomplete="off" checked="" onclick="playsound()"> 
-                            <label class="btn btn-outline-primary" for="vbtn-radio1" >start</label>
-                            <input type="button" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" onclick="stopsound()">
-                            <label class="btn btn-outline-primary" for="vbtn-radio2" >stop</label>
+                            <label class="btn btn-outline-primary clickable" for="vbtn-radio1" id="start" >start</label>
+                            <input type="button" class="btn-check" name="vbtn-radio" id="vbtn-radio2" autocomplete="off" onclick="stopsound()" ontouchstart="stopsound()">
+                            <label class="btn btn-outline-primary clickable" for="vbtn-radio2" id="stop" >stop</label>
                         
                         </div>
 
