@@ -110,7 +110,9 @@ document.getElementById("two").ontouchstart = loopsound_two();
 document.getElementById("three").ontouchstart = loopsound_three();
 document.getElementById("loop").ontouchstart = loopsound_constant();
 
-
+$(document).on('touchstart', function(e){
+    var touch = e.originalEvent.touches[0] || e.originalEvent.changedTouches[0];
+  });
 
 
 
